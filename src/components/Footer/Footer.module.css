@@ -1,0 +1,146 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+.categoriesArea {
+    position: relative;
+    display: flex;
+}
+
+.categories {
+    margin-top: 65px;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+.categories:last-child {
+    margin-right: 0;
+}
+
+.category {
+    position: relative;
+    margin: 0 0 20px 0;
+    color: #727272;
+    font: 13px 'Montserrat';
+    font-weight: 600;
+}
+.item {
+    cursor: pointer;
+    position: relative;
+    margin: 0 0 9px 0;
+    color: #727272;
+    font: 14px 'Montserrat';
+    font-weight: 500;
+}
+.item:hover {
+    color: #00c8c8;
+}
+
+.bannersArea {
+    position: relative;
+    margin: 30px 0 0 0;
+    width: 100%;
+    height: 260px;
+    display: flex;
+}
+
+.banner {
+    position: relative;
+    width: 48%;
+    height: 200px;
+}
+.banner:first-child {
+    margin-right: auto;
+    background: #222222;
+}
+.banner:last-child {
+    background: #00c8c8;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f8f8;
+    text-align: center;
+}
+.text h1 {
+    margin: 0;
+    font: 36px 'Montserrat';
+}
+
+.socialLinks {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 40px;
+    display: flex;
+}
+
+.link {
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    overflow: hidden;
+    -webkit-filter: invert(100%);
+}
+.link:first-child {
+    margin: 0;
+}
+.link:hover {
+    transition: 0.2s;
+    -webkit-filter: invert(90%);
+}
+
+.link img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+
+
+.footerBar {
+    background-color: #333333;
+}
+
+.footerContent {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 45px;
+    align-items: center;
+    font: 13px 'Montserrat';
+    color: #777777
+}
+
+.leftFooterSide {
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+}
+.leftFooterSide p:last-child {
+    margin-left: 20px;
+}
+
+
